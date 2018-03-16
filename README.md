@@ -2,9 +2,9 @@
 通过串口把键盘和鼠标消息传递到开发板，开发板通过BLE HID服务模拟鼠标和键盘操作来控制手机的行为
 
 requirements:
->= python3.5
-pyserial
-pynput
+python >= python3.5  
+pyserial  
+pynput  
 
 test：
 NRF52840开发板，固件“ble_app_hids_keyboard_pca10056_s140.hex”，协议栈“s140_nrf52840_5.0.0-2.alpha_softdevice.hex”
